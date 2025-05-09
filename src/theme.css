@@ -1,0 +1,45 @@
+/* Theme CSS Variables */
+:root {
+    --bg-primary: #000000;
+    --bg-secondary: #2c2c2c;
+    --bg-tertiary: #4D4D4D;
+    --text-primary: #ffffff;
+    --text-secondary: #d1d1d1;
+    --accent-color: #D3F462;
+    --highlight-bg: #2A32FF;
+    --card-bg: #2c2c2c;
+    --navbar-bg: #1a1a1a;
+    --border-color: #3a3a3a;
+    --pending-color: #F6CD46;
+    --confirmed-color: #4CD964;
+    --rating-badge: #2563eb;
+  }
+  
+  /* Light theme variables */
+  .light-theme {
+    --bg-primary: #f7f7f7;
+    --bg-secondary: #ffffff;
+    --bg-tertiary: #f0f0f0;
+    --text-primary: #1a1a1a;
+    --text-secondary: #4a4a4a;
+    --accent-color: #8BAE17;
+    --highlight-bg: #3B42FF;
+    --card-bg: #ffffff;
+    --navbar-bg: #ffffff;
+    --border-color: #e0e0e0;
+    --pending-color: #F6CD46;
+    --confirmed-color: #4CD964;
+    --rating-badge: #2563eb;
+  }
+  
+  /* Base styles that will respect the theme */
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Application-wide transition for smooth theme switching */
+  * {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
