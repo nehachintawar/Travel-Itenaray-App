@@ -30,7 +30,7 @@ A **React-based travel itinerary application** that empowers users to seamlessly
 
  2. Plan Trip Page in Dark Theme
 
- ![Plan Trip (Dark Theme)](public/assets/img4.png)
+ ![Plan Trip (Dark Theme)](public/assets/img5.png)
 
 - 👤 **Profile Page** 
  Manage your preferences and switch between **Dark / Light Mode**.
